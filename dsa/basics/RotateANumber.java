@@ -1,7 +1,12 @@
+package dsa.basics;
+
 import java.util.*;
 
 public class RotateANumber {
 
+    /**
+     * Program to rotate a number by a given factor
+     */
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
