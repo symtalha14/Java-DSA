@@ -11,10 +11,16 @@ public class NumberReversal {
         int d = 0;
         n = scanner.nextBigInteger();
         temp = n;
+
+        // Count number of digits
         while (temp != z) {
             d++;
             temp = temp.divide(b);
         }
+
+        /** Keep on raising 10 to the power of d-1, multiply with
+           last digit and add to the reversed number.
+        */
 
         while (n != z) {
             BigInteger l = n.mod(b);
